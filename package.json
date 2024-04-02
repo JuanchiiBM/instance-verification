@@ -1,0 +1,34 @@
+{
+  "name": "interface-verification",
+  "version": "1.0.12",
+  "description": "With this module you can avoid typical typescript errors, such as making mistakes when you are selecting elements from the DOM",
+  "main": "dist/interface-verification",
+  "umd:main": "dist/interface-verification/interface-verification.umd.js",
+  "module": "dist/interface-verification/interface-verification.mjs",
+  "source": "dist/interface-verification/interface-verification.js",
+  "types": "dist/interface-verification",
+  "browser": "dist/interface-verification/interface-verification.js",
+  "homepage": "https://github.com/JuanchiiBM/interface-verification",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanchiiBM/interface-verification"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "build": "microbundle dist/*js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "interface",
+    "verification"
+  ],
+  "author": "Juan Carlos Benitez Mingrone <juanchibenitez65@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "files": ["dist", "package.json", "README.md"]
+}

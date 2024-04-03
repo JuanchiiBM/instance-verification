@@ -31,6 +31,8 @@ const btn = getFirstElementWithName('btnName', HTMLButtonElement)
 
 #### TS:
 ```ts
+    import { getElementsWithClassName } from 'instance-verification'
+
     const divs = getElementsWithClassName('div', HTMLDivElement)
 ```
 

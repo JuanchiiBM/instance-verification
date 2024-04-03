@@ -1,17 +1,17 @@
 {
-  "name": "interface-verification",
-  "version": "1.0.12",
+  "name": "instance-verification",
+  "version": "1.1.0",
   "description": "With this module you can avoid typical typescript errors, such as making mistakes when you are selecting elements from the DOM",
-  "main": "dist/interface-verification",
-  "umd:main": "dist/interface-verification/interface-verification.umd.js",
-  "module": "dist/interface-verification/interface-verification.mjs",
-  "source": "dist/interface-verification/interface-verification.js",
-  "types": "dist/interface-verification",
-  "browser": "dist/interface-verification/interface-verification.js",
-  "homepage": "https://github.com/JuanchiiBM/interface-verification",
+  "main": "dist/instance-verification",
+  "umd:main": "dist/instance-verification.umd.js",
+  "module": "dist/instance-verification.mjs",
+  "source": "dist/instance-verification.js",
+  "typings": "dist/instance-verification.d.ts",
+  "browser": "dist/instance-verification.js",
+  "homepage": "https://github.com/JuanchiiBM/instance-verification",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JuanchiiBM/interface-verification"
+    "url": "https://github.com/JuanchiiBM/instance-verification"
   },
   "engines": {
     "node": ">= 10"
@@ -22,7 +22,7 @@
   },
   "keywords": [
     "typescript",
-    "interface",
+    "instance",
     "verification"
   ],
   "author": "Juan Carlos Benitez Mingrone <juanchibenitez65@gmail.com>",

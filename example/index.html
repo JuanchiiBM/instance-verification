@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <h1>Watch the Console!</h1>
+    <main>
+        <div class="div">
+            <h2><span>const</span> <span>btn</span> = <span>getElementWithId</span><span>(</span><span>'btn'</span>,
+                <span>HTMLButtonElement</span><span>)</span>
+            </h2>
+            <p>This button HAS the ID = "btn"</p>
+            <button id="btn">Press Me!</button>
+        </div>
+        <div class="div">
+            <h2><span>const</span> <span>inputs</span> =
+                <span>getElementsWithClassName</span><span>(</span><span>'inputs'</span>,
+                <span>HTMLInputElement</span><span>)</span>
+            </h2>
+            <p>The ButtonElement has the class 'inputs' (Check the Console)</p>
+            <div>
+                <input type="text" class="inputs">
+                <input type="text" class="inputs">
+                <button class="inputs">:D</button>
+                <input type="text" class="inputs">
+                <input type="text" class="inputs">
+            </div>
+        </div>
+        <div class="div">
+            <h2><span>const</span> <span>text</span> =
+                <span>getFirstElementWithClassName</span><span>(</span><span>'text'</span>,
+                <span>HTMLTextAreaElement</span><span>)</span>
+            </h2>
+            <p>Just the first element with the class 'text' is going to have the class 'redBorder'</p>
+            <div>
+                <textarea class="text" cols="30" rows="10"></textarea>
+                <textarea class="text" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="div">
+            <h2><span>const</span> <span>li</span> =
+                <span>getElementsWithName</span><span>(</span><span>'redColor'</span>,
+                <span>HTMLTextAreaElement</span><span>)</span>
+            </h2>
+            <p>All the li elements that have the name 'redColor' are going to have a red color</p>
+            <ul>
+                <li name="redColor">This LI has the name 'redColor'</li>
+                <li name="redColor">This LI has the name 'redColor'</li>
+                <li>This LI hasn't the name 'redColor'</li>
+                <li name="redColor">This LI has the name 'redColor'</li>
+            </ul>
+        </div>
+        <div class="div">
+            <h2><span>const</span> <span>tr</span> =
+                <span>getFirstElementWithName</span><span>(</span><span>'TR'</span>,
+                <span>HTMLTextAreaElement</span><span>)</span>
+            </h2>
+            <p>Just the first element with the name 'TR' is going to have the class 'firstTR'</p>
+            <table>
+                <thead>
+                    <th>X</th>
+                    <th>Name</th>
+                    <th>Color</th>
+                </thead>
+                <tr name="TR">
+                    <td>B</td>
+                    <td>Bryan</td>
+                    <td>Brown</td>
+                </tr>
+                <tr name="TR">
+                    <td>C</td>
+                    <td>Charlie</td>
+                    <td>Coral</td>
+                </tr>
+                <tr name="TR">
+                    <td>G</td>
+                    <td>Gaston</td>
+                    <td>Green</td>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

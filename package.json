@@ -1,6 +1,6 @@
 {
   "name": "instance-verification",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "With this module you can avoid typical typescript errors, such as making mistakes when you are selecting elements from the DOM",
   "main": "dist/instance-verification",
   "umd:main": "dist/instance-verification.umd.js",
